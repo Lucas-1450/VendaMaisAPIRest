@@ -1,0 +1,24 @@
+Próximos passos:
+
+1 - Usuarios:
+    Criar tabela usuários no banco de dados
+    Adicionar rota para utilizar de usuário na \routes\index.php
+    Criar Model Usuário 
+    Criar UsuarioDAO
+    Criar UsuarioController
+
+2 - Autenticação:
+    Verificar a possibilidade de configurar dinamicamente o arquivo \src\basicAuth
+        com os usuarios e senhas cadastrados no banco.
+
+3 - Views:
+    Começar a criação de cada tela de consulta, inserção, edição e delete de cada Model
+        Para isso será necessário pesquisar como consumir a API com o fornt end (Estudar o famoso CURL)
+
+        Fiz essa parte com cliente ele até insere mas não da retorno de que foi inserido
+            ->verificar retorno e avisar no front-end. ***************************************************OBS
+
+	Minha primeira tentativa foi fazer com PHP cru e provavelmente não está tendo compatibilidade com
+	a estrutura fornecida pelo framework
+	-Voltei para quando só funciona tudo muito bem pelo insomnia e devo estudar o slim para aplicar as
+	views de acordo com sua documentação: https://www.slimframework.com/docs/v4/features/templates.html

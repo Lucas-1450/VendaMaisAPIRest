@@ -1,0 +1,9 @@
+<?php
+
+putenv('DISPLAY_ERRORS_DETAILS=' . true);
+
+putenv('VENDAMAIS_MYSQL_HOST=');
+putenv('VENDAMAIS_MYSQL_DBNAME=');
+putenv('VENDAMAIS_MYSQL_USER=');
+putenv('VENDAMAIS_MYSQL_PASSWORD=');
+putenv('VENDAMAIS_MYSQL_PORT=');
